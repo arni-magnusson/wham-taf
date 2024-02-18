@@ -1,9 +1,2 @@
-## Preprocess data, write TAF data tables
-
-## Before:
-## After:
-
-library(TAF)
-
-mkdir("data")
-
+source("data_input.R")
+source("data_tables.R")
