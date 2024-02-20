@@ -13,7 +13,7 @@ input <- readRDS("data/input.rds")
 
 # Run model
 model <- fit_wham(input, do.osa=TRUE)
-convergence <- capture.output(check_convergence(model))
+convergence <- trimws(capture.output(check_convergence(model)))
 
 # Write results
 saveRDS(model, "model/model.rds")
