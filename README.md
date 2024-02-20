@@ -10,6 +10,14 @@ taf.boot()
 source.all()
 ```
 
+The resulting files will appear in folders `data`, `model`, `output`, and
+`report`. These folders can be removed, as they are easy to generate, using the
+command:
+
+```
+clean()
+```
+
 ## Introduction to TAF
 
 This repo demonstrates what a WHAM assessment looks like in TAF format. The
