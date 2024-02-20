@@ -16,10 +16,10 @@ Alternatively, download the full analysis as a zip file, using the green `Code`
 button above. This allows opening the CSV files as spreadsheets for further
 examination and reference.
 
-Look up important [WHAM model
-settings](https://github.com/arni-magnusson/wham-taf/blob/3e4c290/data.R#L18-L28)
-in the `prepare_wham_input` call inside `data.R`, where recruitment,
-selectivity, numbers-at-age, and age composition settings are specified.
+Look up important WHAM model settings in the `prepare_wham_input` call inside
+[`data.R`](https://github.com/arni-magnusson/wham-taf/blob/3e4c290/data.R#L18-L28),
+where recruitment, selectivity, numbers-at-age, and age composition settings are
+specified.
 
 ## How to Run Analysis
 
