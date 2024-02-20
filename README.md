@@ -9,10 +9,10 @@ example is from [Ex
 
 ## How to Browse Data and Results
 
-On GitHub, view CSV files found inside [`data`](data), [`output`](output), and
-especially inside [`report`](report), which also contains PNG and PDF files.
+On GitHub, view CSV files found inside the [`data`](data), [`output`](output),
+and especially [`report`](report) folder, which also contains PNG and PDF files.
 
-Alternatively, download the full analysis as a Zip file, using the green `Code`
+Alternatively, download the full analysis as a zip file, using the green `Code`
 button above. This allows opening the CSV files as spreadsheets for further
 examination and reference.
 
