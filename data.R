@@ -1,7 +1,7 @@
 ## Preprocess data, write TAF data tables
 
 ## Before: ex1_SNEMAYT.dat (boot/data)
-## After:  catage.csv, catch.csv, input.rds, maturity.csv, natmort.csv,
+## After:  catage.csv, catch_obs.csv, input.rds, maturity.csv, natmort.csv,
 ##         survey_fall_catage.csv, survey_fall_index.csv,
 ##         survey_spring_catage.csv, survey_spring_index.csv, wcatch.csv,
 ##         wstock.csv (data)
@@ -40,8 +40,8 @@ maturity <- input$data$mature
 dimnames(maturity) <- list(years, ages)
 maturity <- xtab2taf(maturity)
 
-catch <- data.frame(Year=years, Catch=input$data$agg_catch,
-                    Sigma=input$data$agg_catch_sigma)
+catch.obs <- data.frame(Year=years, CatchObs=input$data$agg_catch,
+                        Sigma=input$data$agg_catch_sigma)
 
 catage <- drop(input$data$catch_paa)
 dimnames(catage) <- list(years, ages)
@@ -73,7 +73,7 @@ wstock <- xtab2taf(wstock)
 saveRDS(input, "data/input.rds")
 write.taf(natmort, dir="data")
 write.taf(maturity, dir="data")
-write.taf(catch, dir="data")
+write.taf(catch.obs, dir="data")
 write.taf(catage, dir="data")
 write.taf(survey.spring.index, dir="data")
 write.taf(survey.spring.catage, dir="data")
