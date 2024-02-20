@@ -7,7 +7,7 @@ example is from [Ex
 
 ---
 
-## How to Browse Data and Results
+## Browse data and results
 
 On GitHub, view CSV files found inside the [`data`](data), [`output`](output),
 and especially [`report`](report) folder, which also contains PNG and PDF files.
@@ -21,7 +21,7 @@ Look up important WHAM model settings in the `prepare_wham_input` call inside
 where recruitment, selectivity, numbers-at-age, and age composition settings are
 specified.
 
-## How to Run Analysis
+## Run analysis
 
 Open R in the main working directory containing the R scripts and run the
 following three commands:
@@ -83,3 +83,20 @@ a lightweight and digestible analysis to study and rerun the previous
 assessment. The inherent complexity of the stock assessment process means that
 when examining the larger archive of earlier development model runs and other
 explorations, things may not always be straightforward to understand or rerun.
+
+## See also
+
+- [ICES TAF landing page](https://taf.ices.dk)
+- [ICES TAF documentation](https://github.com/ices-taf/doc)
+- Tutorial [video](https://www.youtube.com/watch?v=FweJbr9hfdY) and [annotated
+  transcript](https://github.com/ices-taf/doc/tree/master/tutorial-1#readme)
+- [TAF package](https://cran.r-project.org/package=TAF) help pages
+- ICES TAF stock assessment examples:
+  - [2015 Spotted ray](https://github.com/ices-taf/2015_rjm-347d) in the Eastern
+    Channel
+  - [2015 Haddock](https://github.com/ices-taf/2015_had-iceg) in Icelandic
+    waters
+  - [2016 Plaice](https://github.com/ices-taf/2016_ple-eche) in the Eastern
+    Channel
+  - [2016 Cod](https://github.com/ices-taf/2016_cod-347d) in the North Sea
+  - [2019 Sandeel](https://github.com/ices-taf/2019_san.sa.6) in Area 6
