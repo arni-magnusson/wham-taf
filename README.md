@@ -17,6 +17,8 @@ example is from [Ex
 1](https://timjmiller.github.io/wham/articles/ex1_basics.html), included in the
 `wham` package vignette.
 
+---
+
 The main goals of TAF are to:
 
 1. Provide a standard format for a very wide variety of assessments that
