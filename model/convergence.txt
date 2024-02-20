@@ -1,0 +1,4 @@
+stats:nlminb thinks the model has converged: mod$opt$convergence == 0
+Maximum gradient component: 9.20e-11
+Max gradient parameter: F_devs
+TMB:sdreport() was performed successfully for this model
