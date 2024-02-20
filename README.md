@@ -13,7 +13,7 @@ source.all()
 ## Introduction to TAF
 
 This repo demonstrates what a WHAM assessment looks like in TAF format. The
-assessment analysis is from [Ex
+example is from [Ex
 1](https://timjmiller.github.io/wham/articles/ex1_basics.html), included in the
 `wham` package vignette.
 
