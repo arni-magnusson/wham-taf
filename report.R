@@ -31,3 +31,5 @@ write.taf(summary, dir="report")
 
 # Write standard WHAM output
 plot_wham_output(model, dir="report")
+if(file.exists("Rplots.pdf"))
+  file.remove("Rplots.pdf")
