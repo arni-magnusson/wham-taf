@@ -1,8 +1,30 @@
 # WHAM assessment in TAF format
 
+This repo demonstrates what a WHAM assessment looks like in TAF format. The
+example is from [Ex
+1](https://timjmiller.github.io/wham/articles/ex1_basics.html), included in the
+`wham` package vignette.
+
+---
+
+## How to Browse Data and Results
+
+On GitHub, view CSV files found inside `data`, `output`, and especially in
+`report`, along with PNG and PDF files.
+
+Alternatively, download the full analysis as a Zip file, using the green `Code`
+button above. This allows opening the CSV files as spreadsheets for further
+examination and reference.
+
+Look up important [WHAM model
+settings](https://github.com/arni-magnusson/wham-taf/blob/3e4c290/data.R#L18-L28)
+in the `prepare_wham_input` call inside `data.R`, where recruitment,
+selectivity, numbers-at-age, and age composition settings are specified.
+
 ## How to Run Analysis
 
-Open R in the main working directory and run three commands:
+Open R in the main working directory containing the R scripts and run the
+following three commands:
 
 ```
 library(TAF)
@@ -18,23 +40,7 @@ command:
 clean()
 ```
 
-## How to Browse Data and Results
-
-On GitHub, view CSV files found inside `data`, `output`, and especially in
-`report`, along with PNG and PDF files.
-
-Alternatively, download the full analysis as a Zip file, using the green `Code`
-button above. This allows opening the CSV files as spreadsheets for further
-examination and reference.
-
 ## Introduction to TAF
-
-This repo demonstrates what a WHAM assessment looks like in TAF format. The
-example is from [Ex
-1](https://timjmiller.github.io/wham/articles/ex1_basics.html), included in the
-`wham` package vignette.
-
----
 
 The main goals of TAF are to:
 
