@@ -1,3 +1,11 @@
 # WHAM assessment in TAF format
 
-Based on package vignette [Ex 1](https://timjmiller.github.io/wham/articles/ex1_basics.html).
+## How to Run
+
+Open R in the main working directory and run three commands:
+
+```
+library(TAF)
+taf.boot()
+source.all()
+```
