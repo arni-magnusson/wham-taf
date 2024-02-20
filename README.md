@@ -1,6 +1,6 @@
 # WHAM assessment in TAF format
 
-## How to Run
+## How to Run Analysis
 
 Open R in the main working directory and run three commands:
 
@@ -17,6 +17,15 @@ command:
 ```
 clean()
 ```
+
+## How to Browse Data and Results
+
+On GitHub, view CSV files found inside `data`, `output`, and especially in
+`report`, along with PNG and PDF files.
+
+Alternatively, download the full analysis as a Zip file, using the green `Code`
+button above. This allows opening the CSV files as spreadsheets for further
+examination and reference.
 
 ## Introduction to TAF
 
