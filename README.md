@@ -55,7 +55,7 @@ When conducting an update assessment a year later, the TAF repo provides a
 convenient starting point. In many cases, only minimal changes are required for
 the TAF scripts to run the new assessment.
 
-When a new stock assessor inherits a previous assessment, the TAF repo is a
-lightweight and digestible analysis to study and rerun the previous assessment,
-before examining the larger archive of development model runs and other
-explorations.
+When a new stock assessor inherits a previous assessment, the TAF repo provides
+a lightweight and digestible analysis to study and rerun the previous
+assessment, before examining the larger archive of development model runs and
+other explorations.
