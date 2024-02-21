@@ -84,6 +84,36 @@ assessment. The inherent complexity of the stock assessment process means that
 when examining the larger archive of earlier development model runs and other
 explorations, things may not always be straightforward to understand or rerun.
 
+## Open science
+
+A TAF repo on GitHub can be made private or public. In some cases, a stock
+assessment repo is kept private while the analysis is developed and then made
+public when the assessment report is published, as an online technical annex.
+
+For many stock assessments, the data and results are available online, along
+with the general software used to conduct the analysis. By also making the
+scripts and model settings available in a standard format that is easy to run,
+TAF aims for the highest level of open science as the basis of sustainable
+fisheries management.
+
+## TAF and ICES TAF
+
+[ICES](https://ices.dk) created TAF in 2016-2020 as a strategic initiative to
+support the highest quality fisheries science for its member countries. The
+design is completely general and is neither specific to ICES nor fisheries.
+Therefore, TAF can be practical for managing any nontrivial workflow that begins
+with input and ends with output.
+
+Two related R packages are maintained on CRAN:
+
+[TAF](https://cran.r-project.org/package=TAF): The general framework and
+functions to develop and run a TAF workflow. With a focus on stability and
+reproducible analyses, TAF is designed to have no package dependencies.
+
+[icesTAF](https://cran.r-project.org/package=icesTAF): A layer on top of TAF
+that provides a collection of utilities that are either ICES-specific or
+introduce package dependencies.
+
 ## See also
 
 - [ICES TAF landing page](https://taf.ices.dk)
